@@ -1,0 +1,70 @@
+.slider {
+  position: relative;
+  margin: 0;
+  max-width: 1440px;
+  align-items: stretch;
+}
+
+.slide.active {
+  height: 520px;
+}
+
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  font-size: 1.7rem;
+  color: #99b0c9;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 1.7rem;
+  color: #99b0c9;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.h2 {
+  font-family: "Merriweather", "serif";
+  position: absolute;
+  left: 75px;
+  top: 35%;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.p {
+  color: #fff;
+  font-weight: 700;
+  max-width: 50%;
+  position: absolute;
+  left: 75px;
+  top: 50%;
+}
+
+.button {
+  position: absolute;
+  left: 75px;
+  top: 70%;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.8rem;
+  font-family: "roboto", "sans-serif";
+  color: white;
+  font-weight: 700;
+}

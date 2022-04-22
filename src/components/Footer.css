@@ -1,0 +1,41 @@
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+}
+
+.terms a {
+  color: #291670;
+  line-height: 1.5rem;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "Roboto", "sans-serif";
+}
+
+.social p {
+  padding-bottom: 5px;
+  color: #291670;
+  font-weight: 400;
+  font-family: "Roboto", "sans-serif";
+}
+
+.social img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.address p {
+  color: #291670;
+  font-weight: 400;
+  font-family: "Roboto", "sans-serif";
+}
