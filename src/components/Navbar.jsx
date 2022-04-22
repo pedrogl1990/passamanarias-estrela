@@ -1,5 +1,12 @@
 import "./Navbar.css";
+import { useState } from "react";
+
 export default function Navbar() {
+  const [active, setActive] = useState(false);
+  const Toggle = () => {
+    setActive(!active);
+  };
+
   return (
     <header>
       <div className="navbar-icons">
@@ -23,26 +30,33 @@ export default function Navbar() {
         </a>
         <ul className="navbar-main-link">
           <li>
-            <a href="/">SOBRE NÓS</a>
+            <a href="/">sobre nós</a>
           </li>
-        </ul>
-        <ul className="navbar-main-link">
           <li>
-            <a href="/">A NOSSA MISSÃO</a>
+            <a href="/">a nossa missão</a>
           </li>
-        </ul>
-        <ul className="navbar-main-link">
           <li>
-            <a href="/">PRODUTOS</a>
+            <a href="/">produtos</a>
           </li>
-        </ul>
-        <ul className="navbar-main-link">
           <li>
-            <a href="/">CONTACTOS</a>
+            <a href="/">contactos</a>
           </li>
         </ul>
-        <div className="navbar-main-search">
-          <img src="/images/Icones/search.png" alt="lupa de pesquisa" />
+        <div className={`search ${active ? "active" : ""}`}>
+          <div className="icon" onClick={Toggle}>
+            <img src="images/Icones/search.png" alt="" />
+            <div className="input"></div>
+          </div>
+          <div className={active ? "proc" : "noproc"}>
+            <div>
+              <input
+                type="text"
+                name="procurar"
+                id="procurar"
+                placeholder="Procurar"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </header>

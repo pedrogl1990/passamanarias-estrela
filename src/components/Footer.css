@@ -12,6 +12,7 @@ footer {
 .terms {
   display: flex;
   flex-direction: column;
+  padding-right: 100px;
 }
 
 .terms a {
@@ -36,6 +37,6 @@ footer {
 
 .address p {
   color: #291670;
-  font-weight: 400;
+  font-weight: 600;
   font-family: "Roboto", "sans-serif";
 }

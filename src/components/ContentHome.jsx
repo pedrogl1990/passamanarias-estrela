@@ -105,7 +105,6 @@ export default function ContentHome() {
           <p>Acreditamos em relações comerciais duradouras</p>
         </div>
       </section>
-      <img src="images/Icones/tres-rolos-fita.png" alt="tres rolos de fita" />
     </>
   );
 }

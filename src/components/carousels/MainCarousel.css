@@ -1,8 +1,6 @@
 .slider {
   position: relative;
-  margin: 0;
   max-width: 1440px;
-  align-items: stretch;
 }
 
 .slide.active {

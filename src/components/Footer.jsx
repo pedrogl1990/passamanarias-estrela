@@ -9,12 +9,12 @@ export default function Footer() {
         <p>4415-051 Perosinho</p>
         <p>Portugal</p>
       </div>
-      <div className="terms">
+      <section className="terms">
         <a href="/">Termos e Condições</a>
         <a href="/">Politica de Cookies</a>
         <a href="/">Politicas de Privacidade</a>
-      </div>
-      <div className="social">
+      </section>
+      <section className="social">
         <p>Siga-nos</p>
         <a href="/">
           <img src="images/Icones/facebook2.png" alt="Icone do Facebook" />
@@ -25,7 +25,7 @@ export default function Footer() {
         <a href="/">
           <img src="images/Icones/twitter2.png" alt="Icone do Twitter" />
         </a>
-      </div>
+      </section>
     </footer>
   );
 }

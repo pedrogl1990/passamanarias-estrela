@@ -20,7 +20,7 @@
   max-width: 1440px;
   color: white;
   justify-content: space-evenly;
-  padding: 25px 0;
+  padding: 40px 0;
 }
 
 .data {
@@ -42,7 +42,7 @@
 }
 
 .section-square-links-top {
-  margin-top: 40px;
+  margin-top: 75px;
   display: flex;
   justify-content: center;
 }
@@ -133,8 +133,8 @@
 }
 
 .section-inspired-details-intro h3 {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 40px;
   font-size: 1.5rem;
   font-family: "Merriweather", "serif";
   color: #291670;
