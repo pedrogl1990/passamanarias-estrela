@@ -1,10 +1,6 @@
-import Footer from "../Footer";
-import Navbar from "../Navbar";
-
 export default function Penachos() {
   return (
     <>
-      <Navbar />
       <main>
         <section className="intro-tassel">
           <h1>Penachos</h1>
@@ -44,7 +40,6 @@ export default function Penachos() {
         </div>
         <img src="images/Icones/tres-rolos-fita.png" alt="tres rolos de fita" />
       </main>
-      <Footer />
     </>
   );
 }

@@ -1,10 +1,6 @@
-import Footer from "../Footer";
-import Navbar from "../Navbar";
-
 export default function Rendas() {
   return (
     <>
-      <Navbar />
       <main>
         <section className="intro-lace">
           <h1>Rendas</h1>
@@ -48,7 +44,6 @@ export default function Rendas() {
         </div>
         <img src="images/Icones/tres-rolos-fita.png" alt="tres rolos de fita" />
       </main>
-      <Footer />
     </>
   );
 }

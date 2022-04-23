@@ -1,10 +1,6 @@
-import Footer from "../Footer";
-import Navbar from "../Navbar";
-
 export default function Xailes() {
   return (
     <>
-      <Navbar />
       <main>
         <section className="intro-xailes">
           <h1>Xailes</h1>
@@ -37,7 +33,6 @@ export default function Xailes() {
         </div>
         <img src="images/Icones/tres-rolos-fita.png" alt="tres rolos de fita" />
       </main>
-      <Footer />
     </>
   );
 }

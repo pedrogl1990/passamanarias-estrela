@@ -1,11 +1,11 @@
 import "./components/Navbar.css";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import Navbar from "./components/Navbar";
 import ContentHome from "./components/ContentHome";
 import MissionValues from "./components//mission/MissionValues";
 import History from "./components/history/History";
+import Contact from "./components/contact/Contact";
 import Products from "./components/products/Products";
 import Fitas from "./components/products/Fitas";
 import Franjas from "./components/products/Franjas";
@@ -26,6 +26,7 @@ function App() {
           <Route index path="/" element={<ContentHome />} />
           <Route path="/sobrenos" element={<History />} />
           <Route path="/missao" element={<MissionValues />} />
+          <Route path="/contacto" element={<Contact />} />
           <Route path="/produtos" element={<Products />} />
           <Route path="/produtos/fitas" element={<Fitas />} />
           <Route path="/produtos/franjas" element={<Franjas />} />

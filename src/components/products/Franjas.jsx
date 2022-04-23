@@ -1,10 +1,6 @@
-import Footer from "../Footer";
-import Navbar from "../Navbar";
-
 export default function Franjas() {
   return (
     <>
-      <Navbar />
       <main>
         <section className="intro-fringe">
           <h1>Franjas</h1>
@@ -47,7 +43,6 @@ export default function Franjas() {
         </div>
         <img src="images/Icones/tres-rolos-fita.png" alt="tres rolos de fita" />
       </main>
-      <Footer />
     </>
   );
 }

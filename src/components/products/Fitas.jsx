@@ -1,10 +1,6 @@
-import Footer from "../Footer";
-import Navbar from "../Navbar";
-
 export default function Fitas() {
   return (
     <>
-      <Navbar />
       <main>
         <section className="intro-ribbon">
           <h1>Fitas</h1>
@@ -41,7 +37,6 @@ export default function Fitas() {
         </div>
         <img src="images/Icones/tres-rolos-fita.png" alt="tres rolos de fita" />
       </main>
-      <Footer />
     </>
   );
 }
