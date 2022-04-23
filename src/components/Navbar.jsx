@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   const [active, setActive] = useState(false);
@@ -21,25 +22,25 @@ export default function Navbar() {
         </a>
       </div>
       <div className="navbar-main">
-        <a href="/">
+        <NavLink to="/">
           <img
             className="logo"
             src="images/Icones/logo2.png"
             alt="logo passamanarias estrela"
           />
-        </a>
+        </NavLink>
         <ul className="navbar-main-link">
           <li>
-            <a href="/">sobre nós</a>
+            <NavLink to="/sobrenos">sobre nós</NavLink>
           </li>
           <li>
-            <a href="/">a nossa missão</a>
+            <NavLink to="/missao">a nossa missão</NavLink>
           </li>
           <li>
-            <a href="/">produtos</a>
+            <NavLink to="/produtos">produtos</NavLink>
           </li>
           <li>
-            <a href="/">contactos</a>
+            <NavLink to="/contacto">contactos</NavLink>
           </li>
         </ul>
         <div className={`search ${active ? "active" : ""}`}>
