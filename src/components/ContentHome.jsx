@@ -1,5 +1,6 @@
 import "./ContentHome.css";
 import MainCarousel from "./carousels/MainCarousel";
+import Footer from "./Footer";
 import { MainCarouselData } from "./carousels/MainCarouselData";
 
 export default function ContentHome() {
@@ -105,6 +106,7 @@ export default function ContentHome() {
           <p>Acreditamos em relações comerciais duradouras</p>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,4 @@
 import "./ContentHistory.css";
-import Footer from "../Footer";
 
 export default function ContentHistory() {
   return (
@@ -90,7 +89,6 @@ export default function ContentHistory() {
           <button>Ver Mais</button>
         </div>
       </section>
-      <Footer />
     </main>
   );
 }
