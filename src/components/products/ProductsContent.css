@@ -1,0 +1,122 @@
+.products-intro h1 {
+  font-family: "Merriweather", "serif";
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #291670;
+}
+
+.products-intro p {
+  line-height: 25px;
+  margin-bottom: 70px;
+}
+
+.products-intro p:first-of-type {
+  margin-bottom: 20px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 4rem;
+  row-gap: 4rem;
+  margin: 0 auto;
+  width: max-content;
+  margin-bottom: 100px;
+}
+
+.product-grid {
+  height: 16em;
+  width: 13em;
+  font-size: 1.5em;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 1px black;
+  overflow: hidden;
+  position: relative;
+  background-color: #f6f6f6;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product-grid h2 {
+  position: absolute;
+  bottom: 375px;
+  font-size: 1.5rem;
+  font-family: "Merriweather", serif;
+  color: #291670;
+}
+
+.product-grid button {
+  position: absolute;
+  border: 1px solid #000;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 15px 50px;
+  font-size: 1rem;
+  color: #291670;
+  background-color: #fff;
+  font-weight: 700;
+  top: 375px;
+}
+
+.product-grid button:hover,
+.product-grid button:hover {
+  background-color: #291670;
+  color: #fff;
+  cursor: pointer;
+}
+
+.products-bottom-links {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.products-bottom-square-1 {
+  margin-right: 40px;
+  position: relative;
+}
+.products-bottom-square-2 {
+  position: relative;
+}
+
+.products-bottom-square-1 img,
+.products-bottom-square-2 img {
+  width: 450px;
+}
+
+.products-bottom-square-1 h2,
+.products-bottom-square-2 h2 {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-size: 2rem;
+  word-spacing: 3px;
+  font-family: "Merriweather", "serif";
+  color: #fff;
+}
+
+.products-bottom-square-1 button,
+.products-bottom-square-2 button {
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.products-bottom-square-1 button:hover,
+.products-bottom-square-2 button:hover {
+  background-color: #fff;
+  color: #291670;
+  cursor: pointer;
+}

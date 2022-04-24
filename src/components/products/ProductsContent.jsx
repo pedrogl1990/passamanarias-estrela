@@ -1,8 +1,10 @@
+import "./ProductsContent.css";
+
 export default function ProductsContent() {
   return (
     <>
       <main>
-        <section>
+        <section className="products-intro">
           <h1>Produtos</h1>
           <p>
             As nossas passamanarias estão presentes no mercado mundial em
@@ -17,54 +19,55 @@ export default function ProductsContent() {
           </p>
         </section>
         <section className="products-grid">
-          <div className="product-grid-1">
-            <p>Fitas</p>
+          <div className="product-grid">
+            <h2>Fitas</h2>
             <img src="images/Ribbon/rolo-fita.png" alt="rolo de fita" />
             <button>Ver</button>
           </div>
-          <div className="product-grid-2">
-            <p>Franjas</p>
+          <div className="product-grid">
+            <h2>Franjas</h2>
             <img src="images/Fringe/franja2.png" alt="franja esticada" />
             <button>Ver</button>
           </div>
-          <div className="product-grid-3">
-            <p>Penachos</p>
+          <div className="product-grid">
+            <h2>Penachos</h2>
             <img
               src="images/Tassel/penacho.png"
               alt="penachos multicoloridos"
             />
             <button>Ver</button>
           </div>
-          <div className="product-grid-4">
-            <p>Rendas</p>
+          <div className="product-grid">
+            <h2>Rendas</h2>
             <img src="images/Lace/renda.png" alt="renda branca" />
             <button>Ver</button>
           </div>
-          <div className="product-grid-5">
-            <p>Pompons</p>
+          <div className="product-grid">
+            <h2>Pompons</h2>
             <img
               src="images/Pompons/pompons.png"
               alt="pompons multicoloridos"
             />
             <button>Ver</button>
           </div>
-          <div className="product-grid-6">
-            <p>Xailes</p>
+          <div className="product-grid">
+            <h2>Xailes</h2>
             <img src="images/Xailes/xaile.png" alt="xaile minhoto vermelho" />
             <button>Ver</button>
           </div>
         </section>
-        <div className="square-links-left">
-          <img src="images/Conteudo/fita.png" alt="fita de algodão" />
-          <h2>Produtos</h2>
-          <button>Ver Mais</button>
-        </div>
-        <div className="square-links-right">
-          <img src="images/Conteudo/tear.png" alt="tear" />
-          <h2>A Empresa</h2>
-          <button>Ver Mais</button>
-        </div>
-        <img src="images/Icones/tres-rolos-fita.png" alt="tres rolos de fita" />
+        <section className="products-bottom-links">
+          <div className="products-bottom-square-1">
+            <img src="images/Conteudo/fita.png" alt="fita de algodão" />
+            <h2>Produtos</h2>
+            <button>Ver Mais</button>
+          </div>
+          <div className="products-bottom-square-2">
+            <img src="images/Conteudo/tear.png" alt="tear" />
+            <h2>A Empresa</h2>
+            <button>Ver Mais</button>
+          </div>
+        </section>
       </main>
     </>
   );
