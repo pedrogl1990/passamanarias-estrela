@@ -30,7 +30,7 @@ export default function ProductsContent() {
           <div className="product-grid">
             <h2>Franjas</h2>
             <img src="images/Fringe/franja2.png" alt="franja esticada" />
-            <NavLink to="/produtos/franjas">
+            <NavLink to="/franjas">
               <button>Ver</button>
             </NavLink>
           </div>

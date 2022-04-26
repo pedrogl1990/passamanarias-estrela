@@ -1,56 +1,55 @@
-.intro-fringe p {
+.intro-ribbon p {
   margin-bottom: 50px;
 }
 
-.fringe-applications {
+.ribbon-applications {
   display: flex;
   justify-content: center;
-  flex-direction: row-reverse;
   margin-top: 150px;
   margin-bottom: 150px;
   align-items: center;
   font-family: "Roboto", sans-serif;
 }
 
-.fringe-applications h2 {
+.ribbon-applications h2 {
   margin-bottom: 25px;
   font-size: 1.5rem;
   color: #291670;
 }
 
-.fringe-applications img {
+.ribbon-applications img {
   width: 500px;
   margin-left: 60px;
 }
 
-.fringe-applications ul {
+.ribbon-applications ul {
   margin-right: 60px;
   padding-left: 25px;
 }
 
-.fringe-bottom-links {
+.ribbon-bottom-links {
   display: flex;
   width: 1440px;
   margin: 0 auto;
   margin-bottom: 70px;
 }
 
-.fringe-bottom-square-1 {
+.ribbon-bottom-square-1 {
   margin-right: 40px;
   position: relative;
 }
-.fringe-bottom-square-2 {
+.ribbon-bottom-square-2 {
   position: relative;
 }
 
-.fringe-bottom-square-1 img,
-.fringe-bottom-square-2 img {
+.ribbon-bottom-square-1 img,
+.ribbon-bottom-square-2 img {
   width: 450px;
   height: 264.11px;
 }
 
-.fringe-bottom-square-1 h2,
-.fringe-bottom-square-2 h2 {
+.ribbon-bottom-square-1 h2,
+.ribbon-bottom-square-2 h2 {
   position: absolute;
   top: 15%;
   left: 5%;
@@ -60,8 +59,8 @@
   color: #fff;
 }
 
-.fringe-bottom-square-1 button,
-.fringe-bottom-square-2 button {
+.ribbon-bottom-square-1 button,
+.ribbon-bottom-square-2 button {
   position: absolute;
   bottom: 15%;
   left: 5%;
@@ -74,8 +73,8 @@
   font-weight: 700;
 }
 
-.fringe-bottom-square-1 button:hover,
-.fringe-bottom-square-2 button:hover {
+.ribbon-bottom-square-1 button:hover,
+.ribbon-bottom-square-2 button:hover {
   background-color: #fff;
   color: #291670;
   cursor: pointer;
