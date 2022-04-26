@@ -1,4 +1,5 @@
 import "./ProductsContent.css";
+import { NavLink } from "react-router-dom";
 
 export default function ProductsContent() {
   return (
@@ -22,12 +23,16 @@ export default function ProductsContent() {
           <div className="product-grid">
             <h2>Fitas</h2>
             <img src="images/Ribbon/rolo-fita.png" alt="rolo de fita" />
-            <button>Ver</button>
+            <NavLink to="/fitas">
+              <button>Ver</button>
+            </NavLink>
           </div>
           <div className="product-grid">
             <h2>Franjas</h2>
             <img src="images/Fringe/franja2.png" alt="franja esticada" />
-            <button>Ver</button>
+            <NavLink to="/produtos/franjas">
+              <button>Ver</button>
+            </NavLink>
           </div>
           <div className="product-grid">
             <h2>Penachos</h2>
@@ -35,12 +40,16 @@ export default function ProductsContent() {
               src="images/Tassel/penacho.png"
               alt="penachos multicoloridos"
             />
-            <button>Ver</button>
+            <NavLink to="/produtos/penachos">
+              <button>Ver</button>
+            </NavLink>
           </div>
           <div className="product-grid">
             <h2>Rendas</h2>
             <img src="images/Lace/renda.png" alt="renda branca" />
-            <button>Ver</button>
+            <NavLink to="/produtos/renda">
+              <button>Ver</button>
+            </NavLink>
           </div>
           <div className="product-grid">
             <h2>Pompons</h2>
@@ -48,12 +57,16 @@ export default function ProductsContent() {
               src="images/Pompons/pompons.png"
               alt="pompons multicoloridos"
             />
-            <button>Ver</button>
+            <NavLink to="/produtos/pompons">
+              <button>Ver</button>
+            </NavLink>
           </div>
           <div className="product-grid">
             <h2>Xailes</h2>
             <img src="images/Xailes/xaile.png" alt="xaile minhoto vermelho" />
-            <button>Ver</button>
+            <NavLink to="/produtos/xailes">
+              <button>Ver</button>
+            </NavLink>
           </div>
         </section>
         <section className="products-bottom-links">

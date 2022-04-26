@@ -8,11 +8,11 @@
 
 .products-intro p {
   line-height: 25px;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
 }
 
 .products-intro p:first-of-type {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .products-grid {
@@ -22,7 +22,7 @@
   row-gap: 4rem;
   margin: 0 auto;
   width: max-content;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .product-grid {
@@ -60,6 +60,7 @@
   background-color: #fff;
   font-weight: 700;
   top: 375px;
+  right: 122px;
 }
 
 .product-grid button:hover,

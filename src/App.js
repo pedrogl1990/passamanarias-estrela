@@ -7,7 +7,7 @@ import MissionValues from "./components//mission/MissionValues";
 import History from "./components/history/History";
 import Contact from "./components/contact/Contact";
 import Products from "./components/products/Products";
-import Fitas from "./components/products/Fitas";
+import Fitas from "./components/products/ribbons/Fitas";
 import Franjas from "./components/products/Franjas";
 import Penachos from "./components/products/Penachos";
 import Rendas from "./components/products/Rendas";
@@ -28,7 +28,7 @@ function App() {
           <Route path="/missao" element={<MissionValues />} />
           <Route path="/contacto" element={<Contact />} />
           <Route path="/produtos" element={<Products />} />
-          <Route path="/produtos/fitas" element={<Fitas />} />
+          <Route path="/fitas" element={<Fitas />} />
           <Route path="/produtos/franjas" element={<Franjas />} />
           <Route path="/produtos/penachos" element={<Penachos />} />
           <Route path="/produtos/rendas" element={<Rendas />} />
