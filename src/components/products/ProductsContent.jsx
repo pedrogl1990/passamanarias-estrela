@@ -40,7 +40,7 @@ export default function ProductsContent() {
               src="images/Tassel/penacho.png"
               alt="penachos multicoloridos"
             />
-            <NavLink to="/produtos/penachos">
+            <NavLink to="/penachos">
               <button>Ver</button>
             </NavLink>
           </div>

@@ -9,7 +9,7 @@ import Contact from "./components/contact/Contact";
 import Products from "./components/products/Products";
 import Fitas from "./components/products/ribbons/Fitas";
 import Franjas from "./components/products/fringe/FranjasContent";
-import Penachos from "./components/products/Penachos";
+import Penachos from "./components/products/tassel/Penachos";
 import Rendas from "./components/products/Rendas";
 import Pompons from "./components/products/Pompons";
 import Xailes from "./components/products/Xailes";
@@ -27,16 +27,16 @@ function App() {
           <Route path="/sobrenos" element={<History />} />
           <Route path="/missao" element={<MissionValues />} />
           <Route path="/contacto" element={<Contact />} />
-          <Route path="/produtos" element={<Products />} />
           <Route path="/fitas" element={<Fitas />} />
           <Route path="/franjas" element={<Franjas />} />
-          <Route path="/produtos/penachos" element={<Penachos />} />
+          <Route path="/penachos" element={<Penachos />} />
           <Route path="/produtos/rendas" element={<Rendas />} />
           <Route path="/produtos/pompons" element={<Pompons />} />
           <Route path="/produtos/xailes" element={<Xailes />} />
           <Route path="/politica-privacidade" element={<Politica />} />
           <Route path="/cookies" element={<Cookies />} />
           <Route path="/termos" element={<Termos />} />
+          <Route path="/produtos" element={<Products />} />
         </Routes>
       </div>
     </BrowserRouter>
