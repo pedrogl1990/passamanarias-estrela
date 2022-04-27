@@ -47,7 +47,7 @@ export default function ProductsContent() {
           <div className="product-grid">
             <h2>Rendas</h2>
             <img src="images/Lace/renda.png" alt="renda branca" />
-            <NavLink to="/produtos/renda">
+            <NavLink to="/rendas">
               <button>Ver</button>
             </NavLink>
           </div>

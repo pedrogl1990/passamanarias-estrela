@@ -1,0 +1,82 @@
+.intro-lace p {
+  margin-bottom: 50px;
+}
+
+.lace-applications {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.lace-applications h2 {
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  color: #291670;
+}
+
+.lace-applications img {
+  width: 500px;
+  margin-left: 60px;
+}
+
+.lace-applications ul {
+  margin-right: 60px;
+  padding-left: 25px;
+}
+
+.lace-bottom-links {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.lace-bottom-square-1 {
+  margin-right: 40px;
+  position: relative;
+}
+.lace-bottom-square-2 {
+  position: relative;
+}
+
+.lace-bottom-square-1 img,
+.lace-bottom-square-2 img {
+  width: 450px;
+  height: 264.11px;
+}
+
+.lace-bottom-square-1 h2,
+.lace-bottom-square-2 h2 {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-size: 2rem;
+  word-spacing: 3px;
+  font-family: "Merriweather", "serif";
+  color: #fff;
+}
+
+.lace-bottom-square-1 button,
+.lace-bottom-square-2 button {
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.lace-bottom-square-1 button:hover,
+.lace-bottom-square-2 button:hover {
+  background-color: #fff;
+  color: #291670;
+  cursor: pointer;
+}
