@@ -1,0 +1,46 @@
+import React, { useState } from "react";
+import "./XailesCarousel.css";
+import { XailesCarouselData } from "./XailesCarouselData";
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+
+const XailesCarousel = ({ slides }) => {
+  const [current, setCurrent] = useState(0);
+  const length = slides.length;
+
+  const nextSlide = (e) => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+    e.preventDefault(e);
+  };
+
+  const prevSlide = (e) => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+    e.preventDefault(e);
+  };
+
+  if (!Array.isArray(slides) || slides.length <= 0) {
+    return null;
+  }
+
+  return (
+    <section className="slider-wrapper">
+      <section className="slider">
+        <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
+        <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+        {XailesCarouselData.map((slide, index) => {
+          return (
+            <div
+              className={index === current ? "slide active" : "slide"}
+              key={index}
+            >
+              {index === current && (
+                <img src={slide.image} alt={slide.alt} className="image" />
+              )}
+            </div>
+          );
+        })}
+      </section>
+    </section>
+  );
+};
+
+export default XailesCarousel;
