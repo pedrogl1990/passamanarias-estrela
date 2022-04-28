@@ -18,10 +18,7 @@ export default function FranjasContent() {
           <FranjasCarousel slides={FranjasCarouselData} />
         </section>
         <section className="fringe-applications">
-          <img
-            src="images/Fringe/tecido-franja.png"
-            alt="tecido rosa com franja"
-          />
+          <img src="images/Fringe/franja7.png" alt="tecido rosa com franja" />
           <div>
             <h2>Aplicações:</h2>
             <ul>

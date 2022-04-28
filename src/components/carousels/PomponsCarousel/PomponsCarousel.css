@@ -1,0 +1,36 @@
+.slider {
+  position: relative;
+  max-width: 1440px;
+}
+
+.slide.active {
+  height: 520px;
+}
+
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  font-size: 1.7rem;
+  color: #99b0c9;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 1.7rem;
+  color: #99b0c9;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}

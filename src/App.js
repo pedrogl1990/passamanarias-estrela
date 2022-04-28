@@ -11,7 +11,7 @@ import Fitas from "./components/products/ribbons/Fitas";
 import Franjas from "./components/products/fringe/FranjasContent";
 import Penachos from "./components/products/tassel/Penachos";
 import Rendas from "./components/products/lace/Rendas";
-import Pompons from "./components/products/Pompons";
+import Pompons from "./components/products/pompons/Pompons";
 import Xailes from "./components/products/Xailes";
 import Cookies from "./components/outros/Cookies";
 import Politica from "./components/outros/Politica";
@@ -31,7 +31,7 @@ function App() {
           <Route path="/franjas" element={<Franjas />} />
           <Route path="/penachos" element={<Penachos />} />
           <Route path="/rendas" element={<Rendas />} />
-          <Route path="/produtos/pompons" element={<Pompons />} />
+          <Route path="/pompons" element={<Pompons />} />
           <Route path="/produtos/xailes" element={<Xailes />} />
           <Route path="/politica-privacidade" element={<Politica />} />
           <Route path="/cookies" element={<Cookies />} />

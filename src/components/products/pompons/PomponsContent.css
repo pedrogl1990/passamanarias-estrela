@@ -1,0 +1,82 @@
+.intro-pompons p {
+  margin-bottom: 50px;
+}
+
+.pompons-applications {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.pompons-applications h2 {
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  color: #291670;
+}
+
+.pompons-applications img {
+  width: 500px;
+  margin-left: 60px;
+}
+
+.pompons-applications ul {
+  margin-right: 60px;
+  padding-left: 25px;
+}
+
+.pompons-bottom-links {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.pompons-bottom-square-1 {
+  margin-right: 40px;
+  position: relative;
+}
+.pompons-bottom-square-2 {
+  position: relative;
+}
+
+.pompons-bottom-square-1 img,
+.pompons-bottom-square-2 img {
+  width: 450px;
+  height: 264.11px;
+}
+
+.pompons-bottom-square-1 h2,
+.pompons-bottom-square-2 h2 {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-size: 2rem;
+  word-spacing: 3px;
+  font-family: "Merriweather", "serif";
+  color: #fff;
+}
+
+.pompons-bottom-square-1 button,
+.pompons-bottom-square-2 button {
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.pompons-bottom-square-1 button:hover,
+.pompons-bottom-square-2 button:hover {
+  background-color: #fff;
+  color: #291670;
+  cursor: pointer;
+}

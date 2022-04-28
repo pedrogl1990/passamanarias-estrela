@@ -57,7 +57,7 @@ export default function ProductsContent() {
               src="images/Pompons/pompons.png"
               alt="pompons multicoloridos"
             />
-            <NavLink to="/produtos/pompons">
+            <NavLink to="/pompons">
               <button>Ver</button>
             </NavLink>
           </div>
