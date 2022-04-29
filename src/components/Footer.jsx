@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -10,9 +11,9 @@ export default function Footer() {
         <p>Portugal</p>
       </div>
       <section className="terms">
-        <a href="/">Termos e Condições</a>
-        <a href="/">Politica de Cookies</a>
-        <a href="/">Politicas de Privacidade</a>
+        <NavLink to="/termos">Termos e Condições</NavLink>
+        <NavLink to="/cookies">Politica de Cookies</NavLink>
+        <NavLink to="/politica-privacidade">Politica de Privacidade</NavLink>
       </section>
       <section className="social">
         <p>Siga-nos</p>

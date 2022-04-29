@@ -1,0 +1,44 @@
+.cookies {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cookies h2 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #849fbc;
+}
+
+.cookies p {
+  font-size: 1rem;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.cookies p:nth-child(7) {
+  margin-bottom: 20px;
+}
+
+.cookies li {
+  margin-bottom: 20px;
+  color: dimgray;
+  list-style-type: none;
+}
+
+.cookies li:last-child {
+  margin-bottom: 50px;
+}
+
+.cookies-moreinfo {
+  margin-bottom: 50px;
+}
+
+.cookies-moreinfo p {
+  margin-bottom: 15px;
+}
+
+.cookies-moreinfo a {
+  text-decoration: none;
+  color: #849fbc;
+  margin-bottom: 50px;
+}
