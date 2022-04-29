@@ -1,5 +1,11 @@
 .contact-intro p {
   line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.contact-map {
+  display: flex;
+  justify-content: center;
 }
 
 .contact-section-form {

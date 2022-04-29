@@ -1,4 +1,6 @@
+import MapPage from "../map/MapPage";
 import "./ContactContent.css";
+
 export default function ContactContent() {
   return (
     <>
@@ -10,6 +12,9 @@ export default function ContactContent() {
             familia e por isso encontramo-nos ao seu inteiro dispor para fazer
             parte dos seus projetos com as nossos produtos.
           </p>
+        </section>
+        <section className="contact-map">
+          <MapPage />
         </section>
         <section className="contact-section-form">
           <form>
