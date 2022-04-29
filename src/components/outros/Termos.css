@@ -1,0 +1,21 @@
+.termos {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.termos h2 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #849fbc;
+}
+
+.termos p {
+  font-size: 1rem;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.termos a {
+  color: #849fbc;
+  text-decoration: none;
+}
