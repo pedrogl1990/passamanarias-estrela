@@ -2,6 +2,7 @@ import "./components/Navbar.css";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import ContentHome from "./components/ContentHome";
 import MissionValues from "./components//mission/MissionValues";
 import History from "./components/history/History";
@@ -38,6 +39,7 @@ function App() {
           <Route path="/termos" element={<Termos />} />
           <Route path="/produtos" element={<Products />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );

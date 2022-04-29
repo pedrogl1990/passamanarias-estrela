@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /public/images
+/src/components/map/apigoogle.json
 
 # testing
 /coverage

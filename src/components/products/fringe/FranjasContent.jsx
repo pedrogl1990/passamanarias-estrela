@@ -1,4 +1,3 @@
-import Footer from "../../Footer";
 import FranjasCarousel from "./../../carousels/FranjasCarousel/FranjasCarousel";
 import { FranjasCarouselData } from "./../../carousels/FranjasCarousel/FranjasCarouselData";
 import "./FranjasContent.css";
@@ -50,7 +49,6 @@ export default function FranjasContent() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   );
 }
