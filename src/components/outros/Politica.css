@@ -1,0 +1,39 @@
+.politica {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.politica a {
+  color: #849fbc;
+  text-decoration: none;
+}
+
+.politica h2 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #849fbc;
+}
+
+.politica h3 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #849fbc;
+}
+
+.politica p {
+  font-size: 1rem;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.politica li {
+  margin-bottom: 20px;
+  color: dimgray;
+  list-style-type: inherit;
+  margin-left: 20px;
+}
+
+.politica-contacto p {
+  margin-bottom: inherit;
+}
