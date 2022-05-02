@@ -1,0 +1,29 @@
+.product-intro p {
+  margin-bottom: 50px;
+}
+
+.product-applications {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.product-applications h2 {
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  color: #291670;
+}
+
+.product-applications img {
+  width: 500px;
+  margin-left: 60px;
+}
+
+.product-applications ul {
+  margin-right: 60px;
+  padding-left: 25px;
+}

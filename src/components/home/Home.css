@@ -44,6 +44,7 @@
 .section-square-links-top {
   margin-top: 75px;
   display: flex;
+  flex: 50%;
   justify-content: center;
 }
 
@@ -112,6 +113,7 @@
   margin-top: 10px;
   display: flex;
   justify-content: center;
+  display: flex;
 }
 
 .square-links-bottom-left {
@@ -170,4 +172,42 @@
 .section-inspired-details-top-sub img,
 .section-inspired-details-bottom-sub img {
   width: 50px;
+}
+
+@media only screen and (max-width: 1210px) {
+  .section-square-links-top,
+  .section-square-links-bottom {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .square-links-top-right,
+  .square-links-bottom-right {
+    padding: 0;
+    margin-top: 30px;
+  }
+  .square-links-top-left,
+  .square-links-bottom-left {
+    padding: 0;
+  }
+
+  .section-inspired-details-top,
+  .section-inspired-details-bottom {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .section-inspired-details-top-sub,
+  .section-inspired-details-bottom-sub {
+    margin-bottom: 20px;
+    max-width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .section-inspired-details-intro {
+    max-width: 90vw;
+    text-align: justify;
+  }
 }

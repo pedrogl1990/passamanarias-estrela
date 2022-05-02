@@ -12,21 +12,21 @@ export default function Navbar() {
     <header>
       <div className="navbar-icons">
         <a href="/">
-          <img src="images/Icones/facebook.png" alt="Icone do Facebook" />
+          <img src="/images/Icones/facebook.png" alt="Facebook" />
         </a>
         <a href="/">
-          <img src="images/Icones/linkedin.png" alt="Icone do Linkedin" />
+          <img src="/images/Icones/linkedin.png" alt="Linkedin" />
         </a>
         <a href="/">
-          <img src="images/Icones/twitter.png" alt="Icone do Twitter" />
+          <img src="/images/Icones/twitter.png" alt="Twitter" />
         </a>
       </div>
       <div className="navbar-main">
         <NavLink to="/">
           <img
             className="logo"
-            src="images/Icones/logo2.png"
-            alt="logo passamanarias estrela"
+            src="/images/Icones/logo2.png"
+            alt="passamanarias estrela"
           />
         </NavLink>
         <ul className="navbar-main-link">
@@ -45,7 +45,7 @@ export default function Navbar() {
         </ul>
         <div className={`search ${active ? "active" : ""}`}>
           <div className="icon" onClick={Toggle}>
-            <img src="images/Icones/search.png" alt="" />
+            <img src="/images/Icones/search.png" alt="" />
             <div className="input"></div>
           </div>
           <div className={active ? "proc" : "noproc"}>

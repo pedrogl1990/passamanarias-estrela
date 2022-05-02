@@ -1,6 +1,7 @@
-import "./ContentHome.css";
-import MainCarousel from "./carousels/MainCarousel";
-import { MainCarouselData } from "./carousels/MainCarouselData";
+import "./Home.css";
+import MainCarousel from "../carousels/MainCarousel";
+import { MainCarouselData } from "../carousels/MainCarouselData";
+import { NavLink } from "react-router-dom";
 
 export default function ContentHome() {
   return (
@@ -30,12 +31,16 @@ export default function ContentHome() {
         <div className="square-links-top-left">
           <img src="images/Conteudo/tear.png" alt="tear" />
           <h2>A Empresa</h2>
-          <button>Ver Mais</button>
+          <NavLink to={"/sobrenos"}>
+            <button>Ver</button>
+          </NavLink>
         </div>
         <div className="square-links-top-right">
           <img src="images/Conteudo/fita.png" alt="fita de algodão" />
           <h2>Produtos</h2>
-          <button>Ver Mais</button>
+          <NavLink to={"/produtos"}>
+            <button>Ver</button>
+          </NavLink>
         </div>
       </section>
       <section className="section-square-links-bottom">
@@ -45,12 +50,18 @@ export default function ContentHome() {
             alt="mão e pedaço de algodão"
           />
           <h2>Missão & Valores</h2>
-          <button>Ver Mais</button>
+
+          <NavLink to={"/missao"}>
+            <button>Ver</button>
+          </NavLink>
         </div>
         <div className="square-links-bottom-right">
           <img src="images/Conteudo/contacto.png" alt="portátil e telemovel" />
           <h2>Contactos</h2>
-          <button>Ver Mais</button>
+
+          <NavLink to={"/contacto"}>
+            <button>Ver</button>
+          </NavLink>
         </div>
       </section>
       <section className="section-inspired-details-intro">

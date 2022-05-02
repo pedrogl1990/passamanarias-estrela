@@ -18,13 +18,13 @@ export default function Footer() {
       <section className="social">
         <p>Siga-nos</p>
         <a href="/">
-          <img src="images/Icones/facebook2.png" alt="Icone do Facebook" />
+          <img src="/images/Icones/facebook2.png" alt="Icone do Facebook" />
         </a>
         <a href="/">
-          <img src="images/Icones/linkedin2.png" alt="Icone do Linkedin" />
+          <img src="/images/Icones/linkedin2.png" alt="Icone do Linkedin" />
         </a>
         <a href="/">
-          <img src="images/Icones/twitter2.png" alt="Icone do Twitter" />
+          <img src="/images/Icones/twitter2.png" alt="Icone do Twitter" />
         </a>
       </section>
     </footer>
