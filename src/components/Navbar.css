@@ -24,7 +24,17 @@
   align-items: center;
   margin: 0 auto;
   height: 60px;
-  background-color: rgba(132, 159, 188, 0.1);
+  background-color: #fff;
+}
+
+.navbar-main .hamburguer {
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
+.navbar-main-link {
+  display: flex;
 }
 
 .navbar-main-link ul {
@@ -90,7 +100,7 @@
 .search {
   position: absolute;
   width: 60px;
-  height: 60px;
+  height: 100%;
   background-color: #849fbc;
   transition: 0.5s;
   right: 0;
@@ -105,7 +115,6 @@
   align-items: center;
   right: 0;
   top: 0;
-  width: 60px;
   cursor: pointer;
 }
 
@@ -136,4 +145,127 @@
 
 #procurar::placeholder {
   color: white;
+}
+
+.navbar-li:nth-child(5) {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .navbar-main {
+    padding: 60px 0 0 0;
+    height: 100%;
+  }
+
+  .navbar-main-link {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .navbar-main-link li {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar-li:nth-child(1) {
+    border-top: 1px solid #291670;
+    margin-top: 30px;
+  }
+
+  .navbar-li {
+    border-bottom: 1px solid #291670;
+    padding: 10px 0;
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  .navbar-li:nth-child(5) {
+    padding-left: 0;
+    padding-right: 0;
+    padding: 0;
+    display: block;
+  }
+  .navbar-li input[type="text"],
+  textarea {
+    font-size: 1.1rem;
+    opacity: 0.5;
+    padding: 3px;
+    background-color: #849fbc;
+    resize: none;
+    outline: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .navbar-li input[type="text"],
+  textarea::placeholder {
+    color: #fff;
+    padding-left: 5%;
+  }
+  .navbar-li input::placeholder {
+    color: #fff;
+  }
+
+  .navbar-li button {
+    position: absolute;
+    bottom: 1%;
+    left: 95%;
+    border: none;
+    background-color: transparent;
+  }
+
+  .navbar-main-link a::before {
+    content: "";
+    position: none;
+    display: none;
+    width: none;
+    height: none;
+    top: none;
+    left: none;
+    background-color: none;
+    transform: none;
+    transition: none;
+  }
+
+  .navbar-main-link a:hover::before {
+    transform: none;
+  }
+
+  .navbar-main .hamburguer {
+    border: none;
+    background-color: #fff;
+    display: block;
+    top: 15px;
+    border: none;
+  }
+
+  .navbar-main .hamburguer img {
+    width: 30px;
+  }
+  .navbar-main .hamburguer:hover {
+    background-color: transparent;
+  }
+
+  .search {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .navbar-main {
+    justify-content: flex-start;
+  }
+  .navbar-main-link li {
+    padding-right: 5px;
+  }
+  .navbar-main-link {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navbar-main-link {
+    padding-left: 0px;
+  }
 }

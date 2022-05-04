@@ -11,6 +11,7 @@
   background-color: #291670;
   color: white;
   padding-top: 25px;
+  font-size: 2rem;
 }
 
 .data-wrapper {
@@ -71,6 +72,12 @@
   font-family: "Merriweather", "serif";
   word-spacing: 3px;
 }
+.square-links-top-left img,
+.square-links-top-right img,
+.square-links-bottom-left img,
+.square-links-bottom-right img {
+  width: 100%;
+}
 
 .square-links-top-left button,
 .square-links-top-right button,
@@ -82,7 +89,7 @@
   border: 1px solid white;
   background-color: transparent;
   border-radius: 5px;
-  padding: 15px 30px;
+  padding: 4% 10%;
   font-size: 1rem;
   font-family: "roboto", "sans-serif";
   color: white;
@@ -92,18 +99,14 @@
 .square-links-top-right button:hover,
 .square-links-bottom-left button:hover,
 .square-links-bottom-right button:hover {
-  position: absolute;
-  bottom: 30%;
-  left: 7%;
   border: 1px solid #fff;
   background-color: #fff;
-  border-radius: 5px;
-  padding: 15px 30px;
-  font-size: 1rem;
-  font-family: "roboto", "sans-serif";
   color: #291670;
-  font-weight: 700;
   cursor: pointer;
+}
+
+.slider {
+  width: 100vw;
 }
 
 .square-links-top-right {
@@ -125,7 +128,7 @@
 }
 
 .section-inspired-details-intro {
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   position: relative;
   align-items: center;
@@ -146,6 +149,8 @@
   font-size: 1.1rem;
   font-family: "roboto", sans-serif;
   color: #000;
+  max-width: 90vw;
+  text-align: justify;
 }
 
 .section-inspired-details-top,
@@ -165,7 +170,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 350px;
+  max-width: 100vw;
   text-align: center;
 }
 
@@ -174,6 +179,12 @@
   width: 50px;
 }
 
+@media only screen and (max-width: 1440px) {
+  .section-inspired-details-intro {
+    max-width: 90vw;
+    text-align: justify;
+  }
+}
 @media only screen and (max-width: 1210px) {
   .section-square-links-top,
   .section-square-links-bottom {
@@ -192,22 +203,124 @@
     padding: 0;
   }
 
-  .section-inspired-details-top,
-  .section-inspired-details-bottom {
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-  }
   .section-inspired-details-top-sub,
   .section-inspired-details-bottom-sub {
     margin-bottom: 20px;
     max-width: 100vw;
   }
+
+  .section-inspired-details-intro p {
+    max-width: 100vw;
+  }
 }
 
-@media only screen and (max-width: 1440px) {
-  .section-inspired-details-intro {
-    max-width: 90vw;
-    text-align: justify;
+@media only screen and (max-width: 600px) {
+  .square-links-top-left h2,
+  .square-links-top-right h2,
+  .square-links-bottom-left h2,
+  .square-links-bottom-right h2 {
+    font-size: 10;
+  }
+  .square-links-top-left button,
+  .square-links-top-right button,
+  .square-links-bottom-left button,
+  .square-links-bottom-right button {
+    font-size: 3vw;
+    padding: 4% 10%;
+  }
+  .section-data .data-wrapper {
+    flex-direction: column;
+  }
+
+  .data-wrapper .data img {
+    width: 60px;
+  }
+  .data-wrapper .data p:first-of-type {
+    font-size: 40px;
+  }
+  .data-wrapper .data p:last-of-type {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .section-data h2 {
+    font-size: 30px;
+  }
+
+  .section-inspired-details-top,
+  .section-inspired-details-bottom {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .section-inspired-details-top {
+    margin-bottom: 0px;
+  }
+
+  .section-inspired-details-top-sub,
+  .section-inspired-details-bottom-sub {
+    padding-bottom: 50px;
+  }
+
+  .section-inspired-details-top-sub:nth-last-of-type(1) {
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .section-square-links-top h2,
+  .section-square-links-bottom h2 {
+    font-size: 6vw;
+    padding-top: 60px;
+  }
+  .square-links-top-left button,
+  .square-links-top-right button,
+  .square-links-bottom-left button,
+  .square-links-bottom-right button {
+    font-size: 3vw;
+    padding: 4% 10%;
+  }
+
+  .section-data .data-wrapper {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .data-wrapper .data img {
+    width: 50px;
+  }
+  .data-wrapper .data p:first-of-type {
+    font-size: 30px;
+  }
+  .data-wrapper .data p:last-of-type {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .section-data h2 {
+    font-size: 30px;
+  }
+
+  .section-inspired-details-intro h3 {
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) and (max-width: 400px) {
+  .section-square-links-top h2,
+  .section-square-links-bottom h2 {
+    font-size: 6vw;
+    padding-top: 60px;
+  }
+
+  .section-inspired-details-intro h3 {
+    font-size: 7vw;
+  }
+  .section-inspired-details-intro p {
+    font-size: 4vw;
+  }
+
+  .section-inspired-details-bottom {
+    margin-bottom: 0px;
   }
 }

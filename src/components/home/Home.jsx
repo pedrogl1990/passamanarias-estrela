@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 export default function ContentHome() {
   return (
     <>
-      <MainCarousel slides={MainCarouselData} />
+      <MainCarousel className="slider" slides={MainCarouselData} />
       <section className="section-data">
         <h2>Dados sobe nós</h2>
         <div className="data-wrapper">
@@ -58,7 +58,6 @@ export default function ContentHome() {
         <div className="square-links-bottom-right">
           <img src="images/Conteudo/contacto.png" alt="portátil e telemovel" />
           <h2>Contactos</h2>
-
           <NavLink to={"/contacto"}>
             <button>Ver</button>
           </NavLink>
@@ -74,47 +73,56 @@ export default function ContentHome() {
           primar pela qualidade até ao mais ínfimo detalhe.
         </p>
       </section>
-      <section className="section-inspired-details-top">
-        <div className="section-inspired-details-top-sub">
-          <img
-            src="images/Icones/mapa-portugal.png"
-            alt="icone mapa Portugal"
-          />
-          <h4>Fornecedores nacionais</h4>
-          <p>
-            Previligiamos o mercado nacional para a aquisição de todas
-            matérias-primas
-          </p>
-        </div>
-        <div className="section-inspired-details-top-sub">
-          <img src="images/Icones/certificado.png" alt="icone de certificado" />
-          <h4>Matérias-Primas OEKO-TEX</h4>
-          <p>Porque a segurança e certificação são uma prioridade</p>
-        </div>
-        <div className="section-inspired-details-top-sub">
-          <img src="images/Icones/verificado.png" alt="icone de verificado" />
-          <h4>Controlo de Qualidade</h4>
-          <p>Controlo rigoroso em cada fase do processo de produção</p>
-        </div>
-      </section>
-      <section className="section-inspired-details-bottom">
-        <div className="section-inspired-details-bottom-sub">
-          <img src="images/Icones/lampada.png" alt="icone lâmpada acesa" />
-          <h4>Design</h4>
-          <p>Seguimos as tendências do mercado e ajudamos a criar novas</p>
-        </div>
-        <div className="section-inspired-details-bottom-sub">
-          <img src="images/Icones/conexao.png" alt="icone conexão" />
-          <h4>A nossa comunidade</h4>
-          <p>
-            Trabalhamos e ensinamos a nossa “arte” a pessoas da nossa comunidade
-          </p>
-        </div>
-        <div className="section-inspired-details-bottom-sub">
-          <img src="images/Icones/fair-trade.png" alt="icone aperto de mãos" />
-          <h4>Friendly Trade</h4>
-          <p>Acreditamos em relações comerciais duradouras</p>
-        </div>
+      <section className="section-inspired-details">
+        <section className="section-inspired-details-top">
+          <div className="section-inspired-details-top-sub">
+            <img
+              src="images/Icones/mapa-portugal.png"
+              alt="icone mapa Portugal"
+            />
+            <h4>Fornecedores nacionais</h4>
+            <p>
+              Previligiamos o mercado nacional para a aquisição de todas
+              matérias-primas
+            </p>
+          </div>
+          <div className="section-inspired-details-top-sub">
+            <img
+              src="images/Icones/certificado.png"
+              alt="icone de certificado"
+            />
+            <h4>Matérias-Primas OEKO-TEX</h4>
+            <p>Porque a segurança e certificação são uma prioridade</p>
+          </div>
+          <div className="section-inspired-details-top-sub">
+            <img src="images/Icones/verificado.png" alt="icone de verificado" />
+            <h4>Controlo de Qualidade</h4>
+            <p>Controlo rigoroso em cada fase do processo de produção</p>
+          </div>
+        </section>
+        <section className="section-inspired-details-bottom">
+          <div className="section-inspired-details-bottom-sub">
+            <img src="images/Icones/lampada.png" alt="icone lâmpada acesa" />
+            <h4>Design</h4>
+            <p>Seguimos as tendências do mercado e ajudamos a criar novas</p>
+          </div>
+          <div className="section-inspired-details-bottom-sub">
+            <img src="images/Icones/conexao.png" alt="icone conexão" />
+            <h4>A nossa comunidade</h4>
+            <p>
+              Trabalhamos e ensinamos a nossa “arte” a pessoas da nossa
+              comunidade
+            </p>
+          </div>
+          <div className="section-inspired-details-bottom-sub">
+            <img
+              src="images/Icones/fair-trade.png"
+              alt="icone aperto de mãos"
+            />
+            <h4>Friendly Trade</h4>
+            <p>Acreditamos em relações comerciais duradouras</p>
+          </div>
+        </section>
       </section>
     </>
   );

@@ -12,7 +12,6 @@ footer {
 .terms {
   display: flex;
   flex-direction: column;
-  padding-right: 100px;
 }
 
 .terms a {
@@ -39,4 +38,30 @@ footer {
   color: #291670;
   font-weight: 600;
   font-family: "Roboto", "sans-serif";
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .address {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    margin: 7px;
+  }
+
+  .terms {
+    font-size: 13px;
+  }
+
+  .social p {
+    display: none;
+  }
+
+  .social img {
+    width: 20px;
+  }
 }

@@ -1,6 +1,6 @@
 .bottom-links {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 70px;
 }
@@ -48,4 +48,41 @@
   background-color: #fff;
   color: #291670;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1020px) {
+  .bottom-links img {
+    width: 290px;
+  }
+  .bottom-links h2 {
+    font-size: 25px;
+  }
+  .bottom-links button {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .bottom-links {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .bottom-links img {
+    margin: 0 auto;
+    width: 65vw;
+  }
+
+  .bottom-links h2 {
+    font-size: 1.5rem;
+  }
+
+  .bottom-links button {
+    font-size: 0.8rem;
+  }
+
+  .bottom-square-1 {
+    margin: 0;
+    margin-bottom: 25px;
+  }
 }
