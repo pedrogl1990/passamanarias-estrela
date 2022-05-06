@@ -19,7 +19,7 @@ a.active:hover::before {
 main {
   font-family: "Roboto", "sans-serif";
   font-size: 1.2rem;
-  max-width: 95%;
+  max-width: 1440px;
 }
 
 h1 {
