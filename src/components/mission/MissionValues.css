@@ -14,6 +14,8 @@ h1 {
 #intro-mission {
   line-height: 25px;
   margin-bottom: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .section-mission-1,
@@ -22,6 +24,8 @@ h1 {
   max-width: 1440px;
   margin-bottom: 70px;
   align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .section-mission-1 img,
@@ -95,7 +99,7 @@ h1 {
   #intro-mission,
   .section-mission-1 p,
   .section-mission-2 li {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .section-mission-1 h2,

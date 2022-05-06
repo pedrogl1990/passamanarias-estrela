@@ -20,6 +20,7 @@ main {
   font-family: "Roboto", "sans-serif";
   font-size: 1.2rem;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -37,7 +38,8 @@ h1 {
 .article-history-3 {
   display: flex;
   max-width: 1440px;
-  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 70px;
   flex-direction: row-reverse;
 }

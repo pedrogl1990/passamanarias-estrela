@@ -9,6 +9,8 @@
 .products-intro p {
   line-height: 25px;
   margin-bottom: 150px;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .products-intro p:first-of-type {
@@ -17,7 +19,8 @@
 
 .product-grid {
   height: 16em;
-  width: 15em;
+  width: 13em;
+  max-width: 1440px;
   font-size: 1.5em;
   border-radius: 7px;
   display: flex;
@@ -34,11 +37,12 @@
 .products-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 4rem;
+  column-gap: 1%;
   row-gap: 4rem;
   margin: 0 auto;
-  width: max-content;
+  max-width: 1440px;
   margin-bottom: 150px;
+  width: 96vw;
 }
 
 .card {
@@ -78,4 +82,58 @@ button:hover {
 
 .product-grid a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .products-intro p {
+    margin-bottom: 70px;
+  }
+
+  .products-grid {
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+  }
+  .products-intro p {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+    max-width: 750px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .products-grid {
+    width: 80vw;
+    margin: 50px auto;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .product-grid {
+    height: 11em;
+    width: 8em;
+    max-width: 460px;
+    font-size: 1.5em;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 1px black;
+    overflow: hidden;
+    position: relative;
+    background-color: #f6f6f6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .card img {
+    width: 175px;
+  }
+  .card h2 {
+    top: 50px;
+    font-size: 20px;
+  }
 }
