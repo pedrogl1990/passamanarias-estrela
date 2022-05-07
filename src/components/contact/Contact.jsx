@@ -13,11 +13,12 @@ export default function Contact() {
             parte dos seus projetos com as nossos produtos.
           </p>
         </section>
-        <div className="contact-map">
+        <div className="map-wrapper">
           <iframe
+            className="google-map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.373079365466!2d-8.59935604842887!3d41.060836924035115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd247bbf79f9e1f1%3A0x9878be07b2f1427b!2sR.%20Nossa%20Sra.%20do%20Al%C3%ADvio%20169%2C%204415-051%20Perosinho!5e0!3m2!1spt-PT!2spt!4v1651529362885!5m2!1spt-PT!2spt"
-            width="1440"
-            height="600"
+            width="1440px"
+            height="600px"
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -28,7 +29,6 @@ export default function Contact() {
             <div className="contact-input">
               <label htmlFor="name">
                 <input
-                  style={{ width: 500, height: 40 }}
                   className="input-decoration"
                   name="name"
                   id="name"
@@ -40,7 +40,6 @@ export default function Contact() {
             <div className="contact-input">
               <label htmlFor="email">
                 <input
-                  style={{ width: 500, height: 40 }}
                   className="input-decoration"
                   name="email"
                   id="email"
@@ -52,7 +51,6 @@ export default function Contact() {
             <div className="contact-input">
               <label htmlFor="tel">
                 <input
-                  style={{ width: 500, height: 40 }}
                   className="input-decoration"
                   name="tel"
                   id="tel"
@@ -64,7 +62,6 @@ export default function Contact() {
             <div className="contact-input">
               <label htmlFor="assunto">
                 <input
-                  style={{ width: 500, height: 40 }}
                   className="input-decoration"
                   name="assunto"
                   id="assunto"
@@ -75,7 +72,6 @@ export default function Contact() {
             </div>
             <div className="contact-input">
               <textarea
-                style={{ width: 500, height: 250 }}
                 className="input-decoration"
                 name="message"
                 id="message"
