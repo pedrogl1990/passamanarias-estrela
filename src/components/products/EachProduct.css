@@ -12,18 +12,59 @@
   font-family: "Roboto", sans-serif;
 }
 
+.product-main-image img {
+  max-width: 1440px;
+}
+
 .product-applications h2 {
   margin-bottom: 25px;
   font-size: 1.5rem;
+  font-weight: 500;
   color: #291670;
 }
 
 .product-applications img {
   width: 500px;
   margin-left: 60px;
+  max-width: 80vw;
 }
 
 .product-applications ul {
   margin-right: 60px;
   padding-left: 25px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .product-main-image img {
+    max-width: 100vw;
+    min-height: 10vh;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .product-intro p {
+    font-size: 0.9rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .product-applications {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 50px;
+  }
+  .product-applications img {
+    margin-left: 0;
+  }
+  .product-applications h2 {
+    margin-left: 0;
+    font-size: 1.1rem;
+  }
+  .product-applications ul {
+    margin-right: 0;
+    padding-left: 0;
+    margin-bottom: 5vh;
+    font-size: 0.9rem;
+  }
 }
