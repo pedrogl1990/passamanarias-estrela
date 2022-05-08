@@ -1,22 +1,38 @@
 .termos {
   max-width: 1440px;
+  font-size: 1.2rem;
   margin: 0 auto;
-  height: 100vh;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .termos h2 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
   margin-bottom: 20px;
   color: #849fbc;
 }
 
 .termos p {
-  font-size: 1rem;
   line-height: 25px;
   margin-bottom: 50px;
+}
+
+.termos p:last-of-type {
+  margin-bottom: 150px;
 }
 
 .termos a {
   color: #849fbc;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 950px) {
+  .termos {
+    font-size: 0.9rem;
+  }
+
+  .termos h2 {
+    font-size: 1.2rem;
+  }
 }

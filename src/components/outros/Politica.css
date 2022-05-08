@@ -1,6 +1,9 @@
 .politica {
   max-width: 1440px;
+  font-size: 1.2rem;
   margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .politica a {
@@ -9,31 +12,48 @@
 }
 
 .politica h2 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
   margin-bottom: 20px;
   color: #849fbc;
 }
 
 .politica h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
   margin-top: 30px;
   margin-bottom: 20px;
   color: #849fbc;
 }
 
 .politica p {
-  font-size: 1rem;
   line-height: 25px;
   margin-bottom: 30px;
 }
 
 .politica li {
+  line-height: 25px;
   margin-bottom: 20px;
-  color: dimgray;
   list-style-type: inherit;
-  margin-left: 20px;
 }
 
 .politica-contacto p {
   margin-bottom: inherit;
+}
+
+.politica strong {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 950px) {
+  .politica {
+    font-size: 0.9rem;
+  }
+
+  .politica h2 {
+    font-size: 1.2rem;
+  }
+  .politica h3 {
+    font-size: 1.1rem;
+  }
 }
