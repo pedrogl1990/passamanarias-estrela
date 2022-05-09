@@ -3,6 +3,7 @@
   max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 70px;
+  font-family: "Poppins", "Sans-serif";
 }
 
 .bottom-square-1 {
@@ -25,7 +26,6 @@
   left: 5%;
   font-size: 2rem;
   word-spacing: 3px;
-  font-family: "Merriweather", "serif";
   color: #fff;
 }
 
@@ -41,6 +41,7 @@
   font-size: 1rem;
   color: #fff;
   font-weight: 700;
+  font-family: "Poppins", "Sans-serif";
 }
 
 .bottom-square-1 button:hover,

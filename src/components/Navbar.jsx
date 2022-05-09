@@ -50,21 +50,21 @@ export default function Navbar() {
         </NavLink>
         {(toggleMenu || screenWidth > 850) && (
           <ul className="navbar-main-link">
-            <li className="navbar-li">
+            <li onClick={toggleNav} className="navbar-li">
               <NavLink to="/sobrenos">sobre nós</NavLink>
             </li>
-            <li className="navbar-li">
+            <li onClick={toggleNav} className="navbar-li">
               <NavLink to="/missao">a nossa missão</NavLink>
             </li>
-            <li className="navbar-li">
+            <li onClick={toggleNav} className="navbar-li">
               <NavLink to="/produtos">produtos</NavLink>
             </li>
-            <li className="navbar-li">
+            <li onClick={toggleNav} className="navbar-li">
               <NavLink to="/contacto">contactos</NavLink>
             </li>
             <li className="navbar-li">
               <input type="text" placeholder="Procurar" name="search" />
-              <button type="submit">
+              <button onClick={toggleNav} type="submit">
                 <img src="/images/Icones/search.png" alt="" />
               </button>
             </li>

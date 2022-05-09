@@ -1,6 +1,7 @@
 .section-data {
   max-width: 1440px;
   margin: 0 auto;
+  font-family: "Poppins", "Sans-serif";
 }
 
 .section-data h2 {
@@ -11,7 +12,7 @@
   background-color: #291670;
   color: white;
   padding-top: 25px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .data-wrapper {
@@ -47,6 +48,7 @@
   display: flex;
   flex: 50%;
   justify-content: center;
+  font-family: "Poppins", "Sans-serif";
 }
 
 .square-links-top-right,
@@ -69,8 +71,8 @@
   left: 7%;
   color: #fff;
   font-size: 2rem;
-  font-family: "Merriweather", "serif";
   word-spacing: 3px;
+  font-family: "Poppins", "Sans-serif";
 }
 .square-links-top-left img,
 .square-links-top-right img,
@@ -91,9 +93,9 @@
   border-radius: 5px;
   padding: 4% 10%;
   font-size: 1rem;
-  font-family: "roboto", "sans-serif";
   color: white;
   font-weight: 700;
+  font-family: "Poppins", "Sans-serif";
 }
 .square-links-top-left button:hover,
 .square-links-top-right button:hover,
@@ -135,21 +137,23 @@
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
+  font-family: "Poppins", "Sans-serif";
 }
 
 .section-inspired-details-intro h3 {
-  padding-top: 100px;
-  padding-bottom: 40px;
+  margin-top: 75px;
+  margin-bottom: 40px;
   font-size: 1.5rem;
-  font-family: "Merriweather", "serif";
   color: #291670;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .section-inspired-details-intro p {
   padding-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 1.1rem;
-  font-family: "roboto", sans-serif;
   color: #000;
-  max-width: 90vw;
   text-align: justify;
 }
 
@@ -170,8 +174,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 100vw;
+  max-width: 310px;
   text-align: center;
+  font-family: "Poppins", "Sans-serif";
+}
+
+.section-inspired-details-top-sub:first-of-type,
+.section-inspired-details-bottom-sub:first-of-type {
+  margin-left: 10px;
+}
+
+.section-inspired-details-top-sub:last-of-type,
+.section-inspired-details-bottom-sub:last-of-type {
+  margin-right: 10px;
+}
+
+.section-inspired-details-top-sub h4,
+.section-inspired-details-bottom-sub h4 {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .section-inspired-details-top-sub img,
@@ -181,7 +203,6 @@
 
 @media only screen and (max-width: 1440px) {
   .section-inspired-details-intro {
-    max-width: 90vw;
     text-align: justify;
   }
 }
@@ -211,6 +232,24 @@
 
   .section-inspired-details-intro p {
     max-width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .section-inspired-details-intro h3 {
+    font-size: 1.2rem;
+  }
+  .section-inspired-details-intro p {
+    font-size: 0.9rem;
+  }
+
+  .section-inspired-details-top-sub p,
+  .section-inspired-details-bottom-sub p {
+    font-size: 0.9rem;
+  }
+  .section-inspired-details-top-sub h4,
+  .section-inspired-details-bottom-sub h4 {
+    font-size: 1rem;
   }
 }
 
@@ -298,7 +337,7 @@
   }
 
   .section-data h2 {
-    font-size: 30px;
+    font-size: 1.3rem;
   }
 
   .section-inspired-details-intro h3 {
@@ -306,18 +345,11 @@
   }
 }
 
-@media only screen and (max-width: 600px) and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .section-square-links-top h2,
   .section-square-links-bottom h2 {
     font-size: 6vw;
     padding-top: 60px;
-  }
-
-  .section-inspired-details-intro h3 {
-    font-size: 7vw;
-  }
-  .section-inspired-details-intro p {
-    font-size: 4vw;
   }
 
   .section-inspired-details-bottom {

@@ -19,14 +19,14 @@ footer {
   line-height: 1.5rem;
   text-decoration: none;
   font-weight: 400;
-  font-family: "Roboto", "sans-serif";
+  font-family: "Poppins", "Sans-serif";
 }
 
 .social p {
   padding-bottom: 5px;
   color: #291670;
   font-weight: 400;
-  font-family: "Roboto", "sans-serif";
+  font-family: "Poppins", "Sans-serif";
 }
 
 .social img {
@@ -37,12 +37,13 @@ footer {
 .address p {
   color: #291670;
   font-weight: 600;
-  font-family: "Roboto", "sans-serif";
+  font-family: "Poppins", "Sans-serif";
 }
 
 @media only screen and (max-width: 600px) {
   footer {
     flex-direction: column;
+    padding-top: 10px;
   }
 
   .address {

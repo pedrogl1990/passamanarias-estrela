@@ -4,7 +4,7 @@ export const MainCarouselData = [
     alt: "Máquina têxtil de tecer",
     h2: "Passamanarias Estrela",
     p: "A nossa história começou há muitas décadas atrás mas é com orgulho que renovamos continuamente a mesma paixão daquele primeiro dia.",
-    button: "Um pouco da nossa história",
+    button: "A nossa história",
   },
   {
     image: "/images/Conteudo/Imagem 2 Carrossel.png",

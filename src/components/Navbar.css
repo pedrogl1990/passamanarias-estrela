@@ -25,6 +25,7 @@
   margin: 0 auto;
   height: 60px;
   background-color: #fff;
+  box-shadow: 0px 2px 10px -2px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-main .hamburguer {
@@ -51,8 +52,8 @@
 }
 
 .navbar-main-link a {
-  font-family: "Merriweather", "serif";
-  font-weight: 700;
+  font-family: "Poppins", "Sans-serif";
+  font-weight: 500;
   font-size: 1rem;
   position: relative;
   color: #291670;
@@ -97,6 +98,7 @@
 .navbar-main-search img {
   margin: auto;
 }
+
 .search {
   position: absolute;
   width: 60px;
@@ -151,6 +153,10 @@
   display: none;
 }
 
+.hamburguer img:hover {
+  background-color: transparent;
+}
+
 @media screen and (max-width: 850px) {
   .navbar-main {
     padding: 60px 0 0 0;
@@ -196,6 +202,7 @@
     position: relative;
     width: 100%;
     height: 100%;
+    border: none;
   }
 
   .navbar-li input[type="text"],

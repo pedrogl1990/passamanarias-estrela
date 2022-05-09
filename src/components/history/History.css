@@ -17,14 +17,14 @@ a.active:hover::before {
 }
 
 main {
-  font-family: "Roboto", "sans-serif";
-  font-size: 1.2rem;
+  font-family: "Poppins", "Sans-serif";
+  font-size: 1.1rem;
   max-width: 1440px;
   margin: 0 auto;
 }
 
 h1 {
-  font-family: "Merriweather", "serif";
+  font-family: "Poppins", "Sans-serif";
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -54,7 +54,7 @@ h1 {
 .article-history-1 h2,
 .article-history-2 h2,
 .article-history-3 h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: 10px;
   font-weight: 700;
 }

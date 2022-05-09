@@ -11,7 +11,7 @@ export default function EachProduct() {
       name: "Fitas",
       description:
         "Fabricamos uma grande variedade de fitas textêis em algodão, sarja, nastro e poliéster e em todo o expectro de cores. Aceitamos projectos com designs personalizados de fitas.",
-      image1: "/images/Ribbon/fitas3.png",
+      image1: "/images/Ribbon/fitas4.png",
       alt1: "fitas variadas",
       aplications: [
         "Cobertores",
@@ -29,7 +29,7 @@ export default function EachProduct() {
       name: "Franjas",
       description:
         "Produzimos um vasto leque de franjas têxteis ornamentativas. Somos uma referência neste tipo de produtos e oferecemos uma vasta gama de modelos e cores.",
-      image1: "/images/Fringe/franja8.png",
+      image1: "/images/Fringe/franja9.png",
       alt1: "franja cru esticada",
       aplications: [
         "Colchas",
@@ -47,7 +47,7 @@ export default function EachProduct() {
       name: "Penachos",
       description:
         "Elegantes e totalmente “handcrafted”, os penachos que fabricamos são feitos e sujeitos a um elevado controlo de qualidade.",
-      image1: "/images/Tassel/penachos4.png",
+      image1: "/images/Tassel/penachos5.png",
       alt1: "muitos penachos beges",
       aplications: [
         "Colchas",
@@ -66,7 +66,7 @@ export default function EachProduct() {
       name: "Rendas",
       description:
         "Comercializamos rendas de diferentes tipos de materiais e com os mais diversos designs. Consulte-nos para obter mais informações acerca dos diversos modelos.",
-      image1: "/images/Lace/renda3.png",
+      image1: "/images/Lace/renda4.png",
       alt1: "renda florida bege",
       aplications: [
         "Colchas",
@@ -103,10 +103,10 @@ export default function EachProduct() {
       name: "Xailes",
       description:
         "É com orgulho que fabricamos o acabamento tradicional para xailes, um acessório de vestuário que tanto define a cultura portugues. Somos especializados nos acabamento dos típicos lenços minhotos.",
-      image1: "/images/Xailes/xaile3.png",
+      image1: "/images/Xailes/xaile4.png",
       alt1: "xaile minhoto vermelho",
       aplications: ["Vestuário", "Outros acessórios de moda"],
-      image2: "/images/Xailes/xaile2.png",
+      image2: "/images/Xailes/xailes.png",
       alt2: "xaile minhoto azul",
     },
   ];

@@ -1,10 +1,10 @@
 main {
   max-width: 1440px;
   margin: 0 auto;
+  font-family: "Poppins", "Sans-serif";
 }
 
 h1 {
-  font-family: "Merriweather", "serif";
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -16,6 +16,7 @@ h1 {
   margin-bottom: 70px;
   margin-left: 10px;
   margin-right: 10px;
+  font-size: 1.1rem;
 }
 
 .section-mission-1,
@@ -46,6 +47,7 @@ h1 {
 .section-mission-1 h2,
 .section-mission-2 h2 {
   font-size: 1.3rem;
+  font-weight: 500;
   margin-bottom: 25px;
   color: #291670;
 }
@@ -58,6 +60,7 @@ h1 {
   margin-bottom: 20px;
   line-height: 25px;
   text-align: justify;
+  font-size: 1.1rem;
 }
 
 .section-mission-2 {
@@ -70,6 +73,7 @@ h1 {
 .section-mission-2 li {
   line-height: 35px;
   left: 50px;
+  font-size: 1.1rem;
 }
 
 .section-mission-2-list {
