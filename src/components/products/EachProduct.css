@@ -74,4 +74,8 @@
     margin-bottom: 5vh;
     font-size: 0.9rem;
   }
+
+  .product-applications li {
+    font-size: 0.9rem;
+  }
 }

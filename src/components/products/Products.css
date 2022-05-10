@@ -134,7 +134,10 @@ button:hover {
     width: 175px;
   }
   .card h2 {
-    top: 50px;
+    top: 30px;
     font-size: 20px;
+  }
+  .card button {
+    padding: 13px 45px;
   }
 }

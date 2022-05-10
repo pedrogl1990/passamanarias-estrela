@@ -1,5 +1,6 @@
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
+import ScrollButton from "./scrollbutton/ScrollButton";
 
 export default function Footer() {
   return (
@@ -27,6 +28,7 @@ export default function Footer() {
           <img src="/images/Icones/twitter2.png" alt="Icone do Twitter" />
         </a>
       </section>
+      <ScrollButton />
     </footer>
   );
 }

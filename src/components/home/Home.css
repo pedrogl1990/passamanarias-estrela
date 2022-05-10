@@ -214,6 +214,21 @@
     margin-top: 30px;
   }
 
+  .section-square-links-top img,
+  .section-square-links-bottom img {
+    max-width: 500px;
+  }
+
+  .section-square-links-top h2,
+  .section-square-links-bottom h2 {
+    font-size: 1.7rem;
+  }
+
+  .section-square-links-top button,
+  .section-square-links-bottom button {
+    padding: 10px 40px;
+  }
+
   .square-links-top-right,
   .square-links-bottom-right {
     padding: 0;
@@ -260,13 +275,7 @@
   .square-links-bottom-right h2 {
     font-size: 10;
   }
-  .square-links-top-left button,
-  .square-links-top-right button,
-  .square-links-bottom-left button,
-  .square-links-bottom-right button {
-    font-size: 3vw;
-    padding: 4% 10%;
-  }
+
   .section-data .data-wrapper {
     flex-direction: column;
   }
@@ -312,13 +321,6 @@
     font-size: 6vw;
     padding-top: 60px;
   }
-  .square-links-top-left button,
-  .square-links-top-right button,
-  .square-links-bottom-left button,
-  .square-links-bottom-right button {
-    font-size: 3vw;
-    padding: 4% 10%;
-  }
 
   .section-data .data-wrapper {
     flex-direction: column;
@@ -339,10 +341,6 @@
   .section-data h2 {
     font-size: 1.3rem;
   }
-
-  .section-inspired-details-intro h3 {
-    padding-top: 60px;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -354,5 +352,12 @@
 
   .section-inspired-details-bottom {
     margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .section-square-links-top button,
+  .section-square-links-bottom button {
+    padding: 10px 25px;
+    font-size: 0.8rem;
   }
 }

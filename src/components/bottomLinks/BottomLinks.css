@@ -8,6 +8,7 @@
 
 .bottom-square-1 {
   margin-right: 40px;
+  margin-left: 10px;
   position: relative;
 }
 .bottom-square-2 {
@@ -53,7 +54,7 @@
 
 @media only screen and (max-width: 1020px) {
   .bottom-links img {
-    width: 290px;
+    width: 325px;
   }
   .bottom-links h2 {
     font-size: 25px;
@@ -75,15 +76,25 @@
   }
 
   .bottom-links h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .bottom-links button {
     font-size: 0.8rem;
+    padding: 10px 30px;
   }
 
   .bottom-square-1 {
     margin: 0;
     margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .bottom-links button {
+    padding: 7px 25px;
+  }
+  .bottom-links h2 {
+    font-size: 1.3rem;
   }
 }

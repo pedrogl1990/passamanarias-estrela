@@ -1,0 +1,18 @@
+.scroll {
+  position: fixed;
+  border: none;
+  left: 50%;
+  bottom: 2%;
+  font-size: 2rem;
+  z-index: 1;
+  cursor: pointer;
+  color: #99b0c9;
+}
+
+@media only screen and (max-width: 800px) {
+  .scroll {
+    font-size: 1.5rem;
+    bottom: 1%;
+    left: 90%;
+  }
+}

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./MainCarousel.css";
 import { MainCarouselData } from "./MainCarouselData";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const MainCarousel = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -38,7 +39,9 @@ const MainCarousel = ({ slides }) => {
               {index === current && <h2 className="h2">{slide.h2}</h2>}
               {index === current && <p className="p">{slide.p}</p>}
               {index === current && (
-                <button className="button">{slide.button}</button>
+                <NavLink to={slide.link}>
+                  <button className="button">{slide.button}</button>
+                </NavLink>
               )}
             </div>
           );
