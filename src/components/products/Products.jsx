@@ -36,7 +36,7 @@ export default function Products() {
                 <h2>{product.name}</h2>
               </div>
               <div className="card">
-                <img src={product.image} />
+                <img src={product.image} alt="" />
               </div>
               <div className="card">
                 <NavLink to={"/produtos/" + product.id}>

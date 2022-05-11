@@ -1,6 +1,6 @@
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
-import ScrollButton from "./scrollbutton/ScrollButton";
+import ScrollButton from "../scrollbutton/ScrollButton";
 
 export default function Footer() {
   return (

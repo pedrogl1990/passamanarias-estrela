@@ -1,8 +1,8 @@
-import "./components/Navbar.css";
+import "./components/navbar/Navbar.css";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
 import MissionValues from "./components//mission/MissionValues";
 import History from "./components/history/History";

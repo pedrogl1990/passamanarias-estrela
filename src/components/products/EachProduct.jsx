@@ -12,7 +12,6 @@ export default function EachProduct() {
       description:
         "Fabricamos uma grande variedade de fitas textêis em algodão, sarja, nastro e poliéster e em todo o expectro de cores. Aceitamos projectos com designs personalizados de fitas.",
       image1: "/images/Ribbon/fitas4.png",
-      alt1: "fitas variadas",
       aplications: [
         "Cobertores",
         "Mantas",
@@ -22,7 +21,6 @@ export default function EachProduct() {
         "Outros acessórios de moda",
       ],
       image2: "/images/Ribbon/cobertor-fita.png",
-      alt2: "cobertores com fitas",
     },
     {
       id: 2,
@@ -30,7 +28,6 @@ export default function EachProduct() {
       description:
         "Produzimos um vasto leque de franjas têxteis ornamentativas. Somos uma referência neste tipo de produtos e oferecemos uma vasta gama de modelos e cores.",
       image1: "/images/Fringe/franja9.png",
-      alt1: "franja cru esticada",
       aplications: [
         "Colchas",
         "Cobertas",
@@ -40,7 +37,6 @@ export default function EachProduct() {
         "Outros acessórios de moda",
       ],
       image2: "/images/Fringe/franja7.png",
-      alt2: "frajas aplciada em toalha",
     },
     {
       id: 3,
@@ -48,7 +44,6 @@ export default function EachProduct() {
       description:
         "Elegantes e totalmente “handcrafted”, os penachos que fabricamos são feitos e sujeitos a um elevado controlo de qualidade.",
       image1: "/images/Tassel/penachos5.png",
-      alt1: "muitos penachos beges",
       aplications: [
         "Colchas",
         "Cobertas",
@@ -59,7 +54,6 @@ export default function EachProduct() {
         "Outros acessórios de moda",
       ],
       image2: "/images/Tassel/penachos.png",
-      alt2: "franja com penachos coloridos aplicados",
     },
     {
       id: 4,
@@ -67,7 +61,6 @@ export default function EachProduct() {
       description:
         "Comercializamos rendas de diferentes tipos de materiais e com os mais diversos designs. Consulte-nos para obter mais informações acerca dos diversos modelos.",
       image1: "/images/Lace/renda4.png",
-      alt1: "renda florida bege",
       aplications: [
         "Colchas",
         "Cobertas",
@@ -78,7 +71,6 @@ export default function EachProduct() {
         "Outros acessórios de moda",
       ],
       image2: "/images/Lace/renda2.png",
-      alt2: "renda aplicada em atoalhado",
     },
     {
       id: 5,
@@ -86,7 +78,6 @@ export default function EachProduct() {
       description:
         "Produzimos e comercializamos pompons 100% hand-craft por profissionais locais. Tamanhos e com as mais diversas cores. Este tipo de de acabamento têxtil dá um toque requintado a qualquer peça.",
       image1: "/images/Pompons/pompons8.png",
-      alt1: "almofada com pompons",
       aplications: [
         "Colchas",
         "Cobertas",
@@ -96,7 +87,6 @@ export default function EachProduct() {
         "Outros acessórios de moda",
       ],
       image2: "/images/Pompons/pompons2.png",
-      alt2: "coberta cinza com pompons aplicados",
     },
     {
       id: 6,
@@ -104,10 +94,8 @@ export default function EachProduct() {
       description:
         "É com orgulho que fabricamos o acabamento tradicional para xailes, um acessório de vestuário que tanto define a cultura portugues. Somos especializados nos acabamento dos típicos lenços minhotos.",
       image1: "/images/Xailes/xaile4.png",
-      alt1: "xaile minhoto vermelho",
       aplications: ["Vestuário", "Outros acessórios de moda"],
       image2: "/images/Xailes/xailes.png",
-      alt2: "xaile minhoto azul",
     },
   ];
 
@@ -120,10 +108,10 @@ export default function EachProduct() {
         <p>{product.description}</p>
       </section>
       <section className="product-main-image">
-        <img src={product.image1} alt={product.alt1} />
+        <img src={product.image1} alt="" />
       </section>
       <section className="product-applications">
-        <img src={product.image2} alt={product.alt2} />
+        <img src={product.image2} alt="" />
         <div>
           <h2>Aplicações:</h2>
           <ul>

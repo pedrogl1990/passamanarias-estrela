@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "./MainCarousel.css";
 import { MainCarouselData } from "./MainCarouselData";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
@@ -8,15 +8,22 @@ const MainCarousel = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
-  const nextSlide = (e) => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-    e.preventDefault(e);
+  const nextSlide = useCallback(() => {
+    setCurrent((previousState) =>
+      previousState === length - 1 ? 0 : previousState + 1
+    );
+  }, [length]);
+
+  const prevSlide = () => {
+    setCurrent((previousState) =>
+      previousState === 0 ? length - 1 : previousState - 1
+    );
   };
 
-  const prevSlide = (e) => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-    e.preventDefault(e);
-  };
+  useEffect(() => {
+    const handleAutoplay = setInterval(nextSlide, 3000);
+    return () => clearInterval(handleAutoplay);
+  }, [nextSlide]);
 
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
@@ -25,8 +32,12 @@ const MainCarousel = ({ slides }) => {
   return (
     <section className="slider-wrapper">
       <section className="slider">
-        <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-        <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+        <button className="left-arrow" onClick={prevSlide}>
+          <FaArrowAltCircleLeft />
+        </button>
+        <button className="right-arrow" onClick={nextSlide}>
+          <FaArrowAltCircleRight />
+        </button>
         {MainCarouselData.map((slide, index) => {
           return (
             <div
