@@ -4,13 +4,6 @@ main {
   font-family: "Poppins", "Sans-serif";
 }
 
-h1 {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  color: #291670;
-}
-
 #intro-mission {
   line-height: 25px;
   margin-bottom: 70px;

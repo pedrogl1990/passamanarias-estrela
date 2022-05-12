@@ -15,6 +15,10 @@ export default function Navbar() {
     setToggleMenu(!toggleMenu);
   };
 
+  const retractNav = () => {
+    setToggleMenu(false);
+  };
+
   useEffect(() => {
     const changeWidth = () => {
       setScreenWidth(window.innerWidth);
@@ -44,6 +48,7 @@ export default function Navbar() {
         <div className="navbar-main">
           <NavLink to="/">
             <img
+              onClick={retractNav}
               className="logo"
               src="/images/Icones/logo2.png"
               alt="logo passamanarias estrela"

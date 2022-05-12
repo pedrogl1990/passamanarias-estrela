@@ -1,6 +1,8 @@
 .product-intro p {
   margin-bottom: 50px;
   font-size: 1.1rem;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .product-applications {

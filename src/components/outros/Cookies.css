@@ -25,6 +25,7 @@
 .cookies li {
   margin-bottom: 20px;
   list-style-type: none;
+  line-height: 25px;
 }
 
 .cookies li:last-child {

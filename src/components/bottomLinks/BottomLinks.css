@@ -64,7 +64,7 @@
     font-size: 15px;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 725px) {
   .bottom-links {
     flex-direction: column;
     align-items: center;
